@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-rest-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:TheoNeUpKid88/nodejs-rest-project.git",
+  "author": "Ramon J. Yniguez <jryniguez@gmail.com>",
+  "license": "MIT"
+}
