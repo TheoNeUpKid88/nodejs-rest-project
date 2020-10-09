@@ -21,9 +21,9 @@ export class Logger {
     }
 
     /**
-     * Converts a string level (trace/debug/info/warn/error) into a number 
-     * 
-     * @param minLevel 
+     * Converts a string level (trace/debug/info/warn/error) into a number
+     *
+     * @param minLevel
      */
     private levelToInt(minLevel: string): number {
         if (minLevel.toLowerCase() in this.levels)
@@ -34,8 +34,8 @@ export class Logger {
 
     /**
      * Central logging method.
-     * @param logLevel 
-     * @param message 
+     * @param logLevel
+     * @param message
      */
     public log(logLevel: string, message: string): void {
         const level = this.levelToInt(logLevel);
