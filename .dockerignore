@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.git/
+yarn-error.log
+tsconfig.json
+tslint.json
+LICENSE
+README.md
